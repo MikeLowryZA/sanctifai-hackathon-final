@@ -229,7 +229,7 @@ export function SongAnalysis({ title, artist, artwork, album }: SongAnalysisProp
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <Card className="rounded-2xl border-2 bg-gradient-to-br from-background to-muted/20">
-              <CardContent className="pt-8 pb-8 flex justify-center">
+              <CardContent className="pt-6 pb-6 flex justify-center">
                 <DiscernmentScore
                   score={analysis.score.total}
                   thresholds={{ faithSafe: 80, caution: 50 }}
