@@ -336,7 +336,7 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto"
           >
             <Card className="rounded-2xl border-2 hover-elevate transition-all duration-300 hover:shadow-lg">
-              <CardContent className="card-padding flex flex-col items-center text-center">
+              <CardContent className="card-padding pt-6 md:pt-8 flex flex-col items-center text-center">
                 <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-primary/10 flex-shrink-0">
                   <Shield className="w-6 h-6 text-primary" />
                 </div>
@@ -351,7 +351,7 @@ export default function Home() {
             </Card>
 
             <Card className="rounded-2xl border-2 hover-elevate transition-all duration-300 hover:shadow-lg">
-              <CardContent className="card-padding flex flex-col items-center text-center">
+              <CardContent className="card-padding pt-6 md:pt-8 flex flex-col items-center text-center">
                 <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-chart-2/10 flex-shrink-0">
                   <Heart className="w-6 h-6 text-chart-2" />
                 </div>
@@ -366,7 +366,7 @@ export default function Home() {
             </Card>
 
             <Card className="rounded-2xl border-2 hover-elevate transition-all duration-300 hover:shadow-lg">
-              <CardContent className="card-padding flex flex-col items-center text-center">
+              <CardContent className="card-padding pt-6 md:pt-8 flex flex-col items-center text-center">
                 <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-primary/10 flex-shrink-0">
                   <Sparkles className="w-6 h-6 text-primary" />
                 </div>
