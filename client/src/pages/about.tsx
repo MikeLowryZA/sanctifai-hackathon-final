@@ -68,7 +68,7 @@ export default function About() {
             className="max-w-4xl mx-auto"
           >
             <Card className="rounded-2xl border-2">
-              <CardContent className="card-padding-large">
+              <CardContent className="card-padding-large pt-6 md:pt-8">
                 <blockquote className="body-large font-serif italic text-center content-spacing">
                   <p>
                     "Finally, brothers and sisters, whatever is true, whatever is
@@ -114,7 +114,7 @@ export default function About() {
                   data-testid={`value-card-${index}`}
                 >
                   <Card className="rounded-2xl border-2 h-full hover-elevate transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
-                    <CardContent className="card-padding flex flex-col">
+                    <CardContent className="card-padding flex flex-col pt-6 md:pt-8">
                       <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-primary/10 flex-shrink-0">
                         <value.icon className="w-6 h-6 text-primary" />
                       </div>
@@ -153,7 +153,7 @@ export default function About() {
 
             <div className="space-y-6">
               <Card className="rounded-2xl border-2">
-                <CardContent className="card-padding content-spacing">
+                <CardContent className="card-padding content-spacing pt-6 md:pt-8">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold leading-none">
                       1
@@ -172,7 +172,7 @@ export default function About() {
               </Card>
 
               <Card className="rounded-2xl border-2">
-                <CardContent className="card-padding content-spacing">
+                <CardContent className="card-padding content-spacing pt-6 md:pt-8">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold leading-none">
                       2
@@ -192,7 +192,7 @@ export default function About() {
               </Card>
 
               <Card className="rounded-2xl border-2">
-                <CardContent className="card-padding content-spacing">
+                <CardContent className="card-padding content-spacing pt-6 md:pt-8">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold leading-none">
                       3
@@ -211,7 +211,7 @@ export default function About() {
               </Card>
 
               <Card className="rounded-2xl border-2">
-                <CardContent className="card-padding content-spacing">
+                <CardContent className="card-padding content-spacing pt-6 md:pt-8">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold leading-none">
                       4
@@ -243,7 +243,7 @@ export default function About() {
             className="max-w-3xl mx-auto"
           >
             <Card className="rounded-2xl border-2 bg-muted/20">
-              <CardContent className="card-padding content-spacing">
+              <CardContent className="card-padding content-spacing pt-6 md:pt-8">
                 <h3 className="heading-3">A Note on Discernment</h3>
                 <p className="body-small text-muted-foreground">
                   SanctifAi is a tool to assist in your media choices, but it
