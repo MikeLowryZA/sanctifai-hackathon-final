@@ -228,7 +228,7 @@ export function SongAnalysis({ title, artist, artwork, album }: SongAnalysisProp
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <Card className="rounded-2xl border-2 bg-gradient-to-br from-background to-muted/20">
+            <Card className="rounded-2xl border-0 bg-transparent">
               <CardContent className="pt-6 pb-6 flex justify-center">
                 <DiscernmentScore
                   score={analysis.score.total}
@@ -239,7 +239,7 @@ export function SongAnalysis({ title, artist, artwork, album }: SongAnalysisProp
           </motion.div>
 
           {/* Content Analysis */}
-          <Card className="rounded-2xl border-2">
+          <Card className="rounded-2xl border-0 bg-transparent">
             <CardContent className="card-padding content-spacing">
               <h2 className="heading-3">
                 Content Analysis

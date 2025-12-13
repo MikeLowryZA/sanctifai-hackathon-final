@@ -274,7 +274,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-chart-2/20 to-transparent rounded-3xl blur-3xl" />
 
                 {/* Preview Card */}
-                <div className="relative bg-background/10 backdrop-blur-xl rounded-3xl border-2 border-white/20 p-8 shadow-2xl">
+                <div className="relative">
                   <div className="space-y-6">
                     {/* Mini Score Display */}
                     <div className="flex flex-col items-center">
